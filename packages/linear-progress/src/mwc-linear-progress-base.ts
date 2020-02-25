@@ -75,8 +75,10 @@ export class LinearProgressBase extends BaseElement {
         aria-valuemin="0"
         aria-valuemax="1"
         aria-valuenow="0">
-        <div class="mdc-linear-progress__buffering-dots"></div>
-        <div class="mdc-linear-progress__buffer"></div>
+        <div class="mdc-linear-progress__buffer-container">
+          <div class="mdc-linear-progress__buffer"></div>
+          <div class="mdc-linear-progress__buffering-dots"></div>
+        </div>
         <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
           <span class="mdc-linear-progress__bar-inner"></span>
         </div>
